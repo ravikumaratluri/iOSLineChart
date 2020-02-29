@@ -66,6 +66,8 @@ class ViewController: UIViewController {
         lineChartView.width(to: view)
         lineChartView.heightToWidth(of: view)
         setData()
+        
+        navigationItem.title = "Reaction Times Graph"
     }
     
     
